@@ -1,0 +1,47 @@
+
+
+# 📝 Online Examination System
+
+This is a simple **Online Examination System** built using PHP and MySQL that allows students to register, log in, take exams, and view results. Administrators can manage users and exams efficiently.
+
+## 🚀 Features
+
+* User registration and login system
+* Question-based exam interface
+* Answer processing and scoring
+* View exam results
+
+
+## 🛠️ Technologies Used
+
+* **Backend:** PHP
+* **Database:** MySQL (assumed; not provided)
+* **Frontend:** HTML, CSS, JavaScript (embedded in PHP)
+
+## ⚙️ Setup Instructions
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/online-exam-system.git
+   cd online-exam-system
+   ```
+
+2. **Set up Database**
+
+   * Import the SQL file (`database.sql` or similar, assumed to be required).
+   * Create tables for `users`, `questions`, `results`, etc.
+   * Update DB connection credentials in PHP files as needed.
+
+3. **Configure Apache/PHP Server**
+
+   * Place the files inside your server directory (e.g., `htdocs` for XAMPP).
+   * Start Apache and MySQL services.
+
+4. **Run the Application**
+
+   * Open your browser and navigate to:
+
+     ```
+     http://localhost/online-exam-system/index.php
+     ```
